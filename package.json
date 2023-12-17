@@ -10,8 +10,20 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@ark-ui/react": "^1.2.1",
+    "@ark-ui/solid": "^1.2.0",
+    "@ark-ui/vue": "^0.9.0",
     "@astrojs/check": "^0.3.3",
+    "@astrojs/react": "^3.0.7",
+    "@astrojs/solid-js": "^3.0.2",
+    "@astrojs/vue": "^4.0.4",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
     "astro": "^4.0.6",
-    "typescript": "^5.3.3"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "solid-js": "^1.8.7",
+    "typescript": "^5.3.3",
+    "vue": "^3.3.12"
   }
 }
