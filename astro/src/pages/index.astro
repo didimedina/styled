@@ -1,0 +1,16 @@
+---
+import ExampleSwitchReact from "../components/react/Switch";
+import Switch from "../components/vue/Switch.vue";
+// import ExampleSwitchSolid from "../components/solid/Switch";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Switch">
+  <div class="w-screen h-screen bg-gray-200 flex justify-center items-center">
+    <div class="bg-gray-200 flex items-start gap-4 flex-col">
+      <ExampleSwitchReact client:load />
+      <!-- <ExampleSwitchSolid client:load /> -->
+      <Switch client:load />
+    </div>
+  </div>
+</Layout>
