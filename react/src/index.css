@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,7 +65,22 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
+@import '../node_modules/@radix-ui/colors/gray.css';
+@import '../node_modules/@radix-ui/colors/gray-alpha.css';
+@import '../node_modules/@radix-ui/colors/gray-dark.css';
+@import '../node_modules/@radix-ui/colors/gray-dark-alpha.css';
+
+@import '../node_modules/@radix-ui/colors/slate.css';
+@import '../node_modules/@radix-ui/colors/slate-alpha.css';
+@import '../node_modules/@radix-ui/colors/slate-dark.css';
+@import '../node_modules/@radix-ui/colors/slate-dark-alpha.css';
+
+
+@import '../node_modules/@radix-ui/colors/orange.css';
+@import '../node_modules/@radix-ui/colors/orange-alpha.css';
+@import '../node_modules/@radix-ui/colors/orange-dark.css';
+@import '../node_modules/@radix-ui/colors/orange-dark-alpha.css';
 
 @tailwind base;
 @tailwind components;
