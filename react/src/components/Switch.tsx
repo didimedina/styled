@@ -3,15 +3,14 @@ import { useState } from "react";
 
 export default function ExampleSwitchReact() {
   const [checked, setChecked] = useState(false);
-  const [ darkTheme, setDarkTheme ] = useState(false)
+  // const [ darkTheme, setDarkTheme ] = useState(false)
 
   return (
-    <div className={ `${darkTheme? "dark" : "light"}  h-screen w-screen flex items-center justify-center bg-slate-1` }>
       <Switch.Root
         checked={checked}
         onCheckedChange={(e) => {
           setChecked(e.checked)
-          setDarkTheme(!darkTheme)
+          // setDarkTheme(!darkTheme)
         }}
         className="group flex h-fit w-fit gap-4 items-center"
       >
@@ -22,6 +21,5 @@ export default function ExampleSwitchReact() {
           React
         </Switch.Label>
       </Switch.Root>
-    </div>
   );
 }

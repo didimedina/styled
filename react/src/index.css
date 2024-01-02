@@ -82,6 +82,16 @@ button:focus-visible {
 @import '../node_modules/@radix-ui/colors/orange-dark.css';
 @import '../node_modules/@radix-ui/colors/orange-dark-alpha.css';
 
+@import '../node_modules/@radix-ui/colors/purple.css';
+@import '../node_modules/@radix-ui/colors/purple-alpha.css';
+@import '../node_modules/@radix-ui/colors/purple-dark.css';
+@import '../node_modules/@radix-ui/colors/purple-dark-alpha.css';
+
+@import '../node_modules/@radix-ui/colors/tomato.css';
+@import '../node_modules/@radix-ui/colors/tomato-alpha.css';
+@import '../node_modules/@radix-ui/colors/tomato-dark.css';
+@import '../node_modules/@radix-ui/colors/tomato-dark-alpha.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
