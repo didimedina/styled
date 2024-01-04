@@ -5,8 +5,7 @@ function App() {
 
   return (
     <>
-    <div className='dark w-svw h-svh flex items-center justify-center bg-base-3 gap-2'>
-      {/* <Switch/> */}
+    <div className='dark bg-slate-100 w-svw h-svh flex items-center justify-center gap-2'>
       <Button.Basic/>
       <Button.Animated/>
     </div>

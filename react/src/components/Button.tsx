@@ -7,7 +7,7 @@ export function Basic() {
     <>
       <button
         type="button"
-        className="rounded-[6px] bg-gradient-to-t from-orange-950/30 bg-brand-10 px-4 h-8 text-xs font-semibold text-brand-2 shadow-sm shadow-brand-6 hover:bg-brand-9 ring-1 ring-brand-12 ring-inset  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        className="flex items-center gap-1 rounded-[6px] bg-gradient-to-t from-purple-950/10 bg-purple-50 px-4 h-11 text-md font-medium text-purple-950 shadow-sm shadow-purple-950/10 hover:bg-purple-100 ring-1 ring-purple-950/20 ring-inset"
       >Push it!
       </button>
   </>
@@ -21,8 +21,6 @@ export function Basic() {
 export function Animated() {
   
   const container = useRef();
-  // const tl = useRef()
-  // do you need a timeline for any reason in this example if you start stacking animations?
 
   
   const { contextSafe } = useGSAP({  scope: container });
@@ -38,7 +36,7 @@ export function Animated() {
     <div ref={container}>
       <button
         type="button"
-        className="flex items-center gap-1 rounded-[6px] bg-gradient-to-t from-brand-12/60 bg-brand-10 px-4 h-11 text-md font-medium text-brand-2 shadow-sm shadow-brand-6 hover:bg-brand-9 ring-1 ring-brand-12 ring-inset"
+        className="flex items-center gap-1 rounded-[6px] bg-gradient-to-t from-purple-950/50 bg-purple-700 px-4 h-11 text-md font-medium text-purple-100 shadow-sm shadow-purple-900/50 hover:bg-purple-800 ring-1 ring-purple-950 ring-inset"
         onMouseEnter={animButton}
       >
         <div id="icon">
